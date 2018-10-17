@@ -1,6 +1,6 @@
 password = 'a123456'
 i = 3 # temps rest
-while True:
+while i > 0:
 	pwd = input ('please type password:  ')
 	if pwd == password:
 		print('log in')
@@ -8,5 +8,4 @@ while True:
 	else:
 		i = i -1
 		print('Wrong password!  Still have', i ,' temps')
-		if i == 0:
-			break
+		
